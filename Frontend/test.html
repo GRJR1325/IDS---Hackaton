@@ -23,7 +23,7 @@
     <main>
 
         <label for="exp">Años de Experiencia en IT</label>
-        <input type="number" name="exp" id="exp" min="0" max="50">
+        <input type="number" name="exp" id="exp" step="1" min="0" max="50" pattern="[0-50]" placeholder="Ingrese años de experiencia en valor entero">
         <label for="node">Habilidades NodeJS</label>
         <select name="node" id="node">
             <option value="0">No tengo conocimiento del área</option>
@@ -63,14 +63,14 @@
         <label for="ningles">Nivel de Inglés</label>
         <select name="ningles" id="ningles">
             <option value="0">Casi no hablo la lengua</option>
-            <option value="2">A1</option>
-            <option value="4">A2</option>
-            <option value="6">B1</option>
-            <option value="8">B2</option>
-            <option value="10">C1</option>
-            <option value="10">c2</option>
+            <option value="16.6">A1</option>
+            <option value="33">A2</option>
+            <option value="49">B1</option>
+            <option value="66.4">B2</option>
+            <option value="83">C1</option>
+            <option value="6">C2</option>
         </select>
-        <label for="visap">Nivel de Inglés</label>
+        <label for="visap">Visa o Pasaporte</label>
         <select name="visap" id="visap">
             <option value="1">SÍ, dispongo de Visa o Pasaporte</option>
             <option value="0">No, no cuento con Visa o Pasaporte</option>
@@ -81,8 +81,14 @@
             <option value="0">No, no puedo trabajar en remoto</option>
         </select>
         <label for="estudios">Nivel de estudios:</label>
+        <select name="estudios" id="estudios">
+            <option value="10">Completamente autodidacta</option>
+            <option value="15">Licenciatura</option>
+            <option value="20">Ingeniería</option>
+            <option value="25">Maestría</option>
+            <option value="50">Doctorado</option>
+        </select>
         <button onclick="getValue()">Comprobar mis resultados</button>
-        <a href="resultado.html">Comprobar mis resultados</a>
     </main>
 
     <footer>
