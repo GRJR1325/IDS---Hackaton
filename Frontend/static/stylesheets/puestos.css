@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     height: 1000px;
-    background-color: rgb(242, 237, 233);
+    background-color: rgb(255, 255, 255);
     font-family: 'Spinnaker';
 }
 
@@ -56,11 +56,22 @@ h1 {
 .main {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 550px;
     align-items: center;
     margin: 0;
-    background-color: rgb(242, 237, 233);
+    background-color: rgb(255, 255, 255);
     justify-content: left;
+    flex-direction: row-reverse;
+}
+
+.main1{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-size: xx-large;
 
 }
 
@@ -92,10 +103,9 @@ h1 {
     background-color: rgb(242, 237, 233);
 }
 
-h2 {
+.h2 {
     color: #000000;
     text-align: center;
-    font-size: xx-large;
 }
 
 .main3 {
@@ -111,7 +121,7 @@ h2 {
     background-color: rgb(242, 237, 233);
 }
 
-h3 {
+.h3 {
     color: #000000;
     text-align: center;
     font-size:x-large;
@@ -123,7 +133,7 @@ h3 {
     height: 700px;
     align-items: left;
     margin: 0;
-    background-color: rgb(242, 237, 233);
+    background-color: rgb(255, 255, 255);
     justify-content: center;
 }
 
